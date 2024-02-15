@@ -1,12 +1,12 @@
 ---
-title: Flask
-description: A popular minimal server framework for Python
+title: Frame Custom Webhook Example
+description: Frame Custom Webhook Example
 tags:
   - python
   - flask
 ---
 
-# Python Flask Example
+# Frame Custom Webhook Example
 
 This is a [Flask](https://flask.palletsprojects.com/en/1.1.x/) app that serves a simple JSON response.
 
