@@ -13,7 +13,7 @@ def index():
 
         # Now data is a Python dictionary
         print(data)
-        fid = data.get(recipientFid, None)
+        fid = data.get('recipientFid', None)
 
         if(fid != None and fid < 100000):
             return jsonify({}), 200
