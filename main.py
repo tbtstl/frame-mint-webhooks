@@ -15,7 +15,7 @@ def index():
         print(data)
         fid = data.get('recipientFid', None)
 
-        if(fid != None and fid < 100000):
+        if(fid != None and fid < 20000):
             return jsonify({}), 200
         else:
             return jsonify({"error": "Invalid Fid"}), 400
